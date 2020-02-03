@@ -18,9 +18,9 @@ class SearchBooks extends Component{
       if (existingBook !== undefined) {
        Results[i].shelf = existingBook.shelf;
       }
-
     }
     this.setState({Results:Results})
+    console.log(Results);
   }
 
 
